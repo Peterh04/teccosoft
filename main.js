@@ -12,7 +12,6 @@ menuToggleBtn.addEventListener("click", () => {
 themeToggleBtn.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
   if (body.classList.contains("dark-mode")) {
-    logoImage.src = "./assets/logo_dark.png";
     document.querySelector(".web-icon").src =
       "./assets/icons/laptop-solid-dark.svg";
     document.querySelector(".globe-icon").src =
