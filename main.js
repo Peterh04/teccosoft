@@ -26,6 +26,5 @@ themeToggleBtn.addEventListener("click", () => {
     document.querySelector(".palette-icon").src =
       "../assets/icons/palette-solid-full-dark.svg";
   } else {
-    logoImage.src = "./assets/logo_light.png";
   }
 });

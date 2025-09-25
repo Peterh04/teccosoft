@@ -19,6 +19,13 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: "Osande";
+  src: url("/assets/fonts/Osande\ -\ Medium\ DEMO.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* 3. Enable keyword animations */
 @media (prefers-reduced-motion: no-preference) {
   html {
@@ -102,6 +109,8 @@ body {
   height: 100%;
 
   color: white;
+
+  font-family: "Osande", sans-serif;
 }
 
 .btn {
@@ -128,8 +137,8 @@ body {
 }
 
 .main-header > .logo-img {
-  width: 130px;
-  height: 90px;
+  width: 80px;
+  height: 50px;
 
   object-fit: cover;
 }
@@ -370,7 +379,7 @@ body {
 .advantages {
   width: 100%;
 
-  margin-top: 5rem;
+  margin-top: 5r;
   margin-bottom: 5rem;
 
   color: black;
@@ -527,6 +536,8 @@ body {
 
   justify-content: center;
   align-items: center;
+
+  gap: 5px;
 }
 
 .link > img {
