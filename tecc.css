@@ -562,11 +562,6 @@ body.dark-mode .individual-service {
   color: #e0e0e0;
 }
 
-body.dark-mode .individual-service:hover {
-  background: linear-gradient(to right, #0d47a1, #1976d2);
-  color: #ffffff;
-}
-
 body.dark-mode .fa {
   fill: white;
 }
