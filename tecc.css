@@ -86,6 +86,10 @@ h6 {
   text-wrap: balance;
 }
 
+button {
+  cursor: pointer;
+}
+
 /*
   10. Create a root stacking context
 */
@@ -270,7 +274,7 @@ body {
 }
 
 .hero-content > .btn-link {
-  background: linear-gradient(to right, #cc5500, #d1702a);
+  background: linear-gradient(to right, #cc5500, hsl(25, 67%, 49%));
 
   margin-top: 30px;
 
@@ -291,8 +295,6 @@ body {
   width: 100%;
 
   margin-top: 1rem;
-
-  padding: 20px;
 }
 
 .service-content > h3 {
@@ -300,11 +302,15 @@ body {
   justify-content: center;
 
   margin-bottom: 1rem;
+
+  padding: 20px 0px;
 }
 
 .service-content > p {
   display: flex;
   justify-content: center;
+
+  padding: 0 20px;
 
   font-size: 0.9rem;
   font-weight: 100;
@@ -334,13 +340,13 @@ body {
   flex-direction: column;
 
   justify-content: center;
+  align-items: center;
 
-  border-radius: 20px;
+  background-color: #f1f1f1;
 
   padding: 20px;
 
-  width: 300px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 100%;
 
   transition: background 0.3s;
 }
@@ -366,18 +372,6 @@ body {
 
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.individual-service:hover {
-  background: linear-gradient(to right, #1cbaeb, #0470db);
-
-  color: white;
-
-  cursor: pointer;
-}
-
-.individual-service:hover > p {
-  color: white;
 }
 
 .advantages {
@@ -592,7 +586,7 @@ body.dark-mode .footer {
 }
 
 body.dark-mode a {
-  color: #ffb74d;
+  color: white;
 }
 
 body.dark-mode .menu > ul {
@@ -742,8 +736,6 @@ body.dark-mode .menu > ul > li::after {
     padding: 40px 10px;
 
     gap: 15px;
-
-    background: linear-gradient(to right, #1cbaeb, #0470db);
   }
 
   .footer > h3 {
@@ -904,8 +896,6 @@ body.dark-mode .menu > ul > li::after {
     padding: 40px 10px;
 
     gap: 15px;
-
-    background: linear-gradient(to right, #1cbaeb, #0470db);
   }
 
   .footer > h3 {
@@ -1060,13 +1050,11 @@ body.dark-mode .menu > ul > li::after {
 
     width: 100%;
 
-    background: #21bdec;
+    background: linear-gradient(135deg, #3a3a3e, #28282b);
 
     padding: 40px 10px;
 
     gap: 15px;
-
-    background: linear-gradient(to right, #1cbaeb, #0470db);
   }
 
   .footer > h3 {
