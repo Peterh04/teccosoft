@@ -14,11 +14,28 @@ menuToggleBtn.addEventListener("click", () => {
 themeToggleBtn.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
   if (body.classList.contains("dark-mode")) {
-    console.log(menuIcon);
     themeIcon.src = "./assets/icons/sun-solid-full-dark.svg";
     menuIcon.src = "./assets/icons/bars-solid-full-dark.svg";
   } else {
     themeIcon.src = "./assets/icons/moon-solid-full.svg";
     menuIcon.src = "./assets/icons/bars-solid-full.svg";
   }
+});
+
+const setTheme = (mode) => {
+  if (mode === "dark") {
+    body.classList.add("dark-mode");
+    themeIcon.src = "./assets/icons/sun-solid-full-dark.svg";
+    menuIcon.src = "./assets/icons/bars-solid-full-dark.svg";
+  } else {
+    body.classList.remove("dark-mode");
+  }
+};
+
+const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)");
+
+setTheme(prefersDarkMode.matches ? "dark" : "light");
+
+prefersDarkMode.addEventListener("change", (e) => {
+  setTheme(e.matches ? "dark" : "light");
 });
