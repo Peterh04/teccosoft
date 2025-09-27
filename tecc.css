@@ -569,6 +569,10 @@ body.dark-mode .advantages {
   color: #e0e0e0;
 }
 
+body.dark-mode .service-content > p {
+  color: #dbdbdb;
+}
+
 body.dark-mode .individual-service {
   background-color: #1e1e1e;
   color: #e0e0e0;
@@ -580,6 +584,10 @@ body.dark-mode .individual-service > p {
 
 body.dark-mode .advantages-content > p {
   color: #f8f8ff;
+}
+
+body.dark-mode .individual-adv-content > p {
+  color: #dbdbdb;
 }
 
 body.dark-mode .fa {
