@@ -145,11 +145,10 @@ body {
   position: relative;
 }
 
-.main-header > .logo-img {
-  width: 80px;
-  height: 50px;
+.main-header > h1 {
+  margin-left: 20px;
 
-  object-fit: cover;
+  color: #0a1835;
 }
 
 .main-header > .header-controls {
@@ -560,6 +559,9 @@ body {
 body.dark-mode {
   background-color: #151b21;
   color: #e0e0e0;
+}
+body.dark-mode .main-header > h1 {
+  color: #163575;
 }
 
 body.dark-mode .hero {
