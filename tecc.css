@@ -233,7 +233,7 @@ body {
 
   background: linear-gradient(135deg, #3a3a3e, #28282b);
 
-  min-height: 500px;
+  min-height: 50\0px;
   width: 100%;
 }
 
@@ -276,7 +276,8 @@ body {
 }
 
 .hero-content > .btn-link {
-  background: linear-gradient(to right, #cc5500, hsl(25, 67%, 49%));
+  /* background: linear-gradient(to right, #cc5500, hsl(25, 67%, 49%)); */
+  background: #cc5500;
 
   margin-top: 30px;
 
