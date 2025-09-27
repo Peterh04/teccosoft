@@ -15,7 +15,8 @@
 }
 
 .fa {
-  fill: #28282b;
+  /* fill: #28282b; */
+  fill: #0a1835;
 }
 
 /* 2. Remove default margin */
@@ -231,7 +232,7 @@ body {
 
   position: relative;
 
-  background: linear-gradient(135deg, #3a3a3e, #28282b);
+  background: #0a1835;
 
   min-height: 50\0px;
   width: 100%;
@@ -352,23 +353,22 @@ body {
   width: 100%;
 
   transition: background 0.3s;
-
-  position: relative;
 }
 
-.individual-service > .fa {
+.individual-service > .individual-service-header {
+  display: flex;
+  width: 100%;
+
+  align-items: center;
+
+  margin-bottom: 5px;
+}
+.individual-service-header > h3 {
+}
+.individual-service-header > .fa {
   width: 40px;
 
-  margin-bottom: 1.3rem;
-
-  position: absolute;
-
-  top: 15px;
-  left: 30px;
-}
-
-.individual-service > h3 {
-  margin-top: 50px;
+  margin-right: 20px;
 }
 
 .individual-service > p {
@@ -489,17 +489,13 @@ body {
 
   color: white;
 
-  background-color: black;
-
   width: 100%;
-
-  background: #21bdec;
 
   padding: 40px 10px;
 
   gap: 15px;
 
-  background: linear-gradient(135deg, #3a3a3e, #28282b);
+  background: #0a1835;
 }
 
 .footer > h3 {
@@ -563,7 +559,7 @@ body.dark-mode {
 }
 
 body.dark-mode .hero {
-  background: linear-gradient(to right, #0d47a1, #1565c0);
+  background: #163575;
 }
 
 body.dark-mode .services,
@@ -585,7 +581,8 @@ body.dark-mode .advantages-content > p {
 }
 
 body.dark-mode .fa {
-  fill: white;
+  /* fill: white; */
+  fill: #163575;
 }
 
 body.dark-mode .btn {
@@ -598,7 +595,7 @@ body.dark-mode .btn-link {
 }
 
 body.dark-mode .footer {
-  background: linear-gradient(to right, #0d47a1, #1565c0);
+  background: #163575;
   color: #e0e0e0;
 }
 
@@ -744,11 +741,7 @@ body.dark-mode .menu > ul > li::after {
 
     color: white;
 
-    background-color: black;
-
     width: 100%;
-
-    background: #21bdec;
 
     padding: 40px 10px;
 
@@ -904,11 +897,7 @@ body.dark-mode .menu > ul > li::after {
 
     color: white;
 
-    background-color: black;
-
     width: 100%;
-
-    background: #21bdec;
 
     padding: 40px 10px;
 
@@ -1063,11 +1052,7 @@ body.dark-mode .menu > ul > li::after {
 
     color: white;
 
-    background-color: black;
-
     width: 100%;
-
-    background: linear-gradient(135deg, #3a3a3e, #28282b);
 
     padding: 40px 10px;
 
