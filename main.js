@@ -14,10 +14,10 @@ menuToggleBtn.addEventListener("click", () => {
 themeToggleBtn.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
   if (body.classList.contains("dark-mode")) {
-    themeIcon.src = "./assets/icons/sun-solid-full-dark.svg";
+    themeIcon.src = "./assets/icons/sun.png";
     menuIcon.src = "./assets/icons/bars-solid-full-dark.svg";
   } else {
-    themeIcon.src = "./assets/icons/moon-solid-full.svg";
+    themeIcon.src = "./assets/icons/moon.png";
     menuIcon.src = "./assets/icons/bars-solid-full.svg";
   }
 });
@@ -25,7 +25,7 @@ themeToggleBtn.addEventListener("click", () => {
 const setTheme = (mode) => {
   if (mode === "dark") {
     body.classList.add("dark-mode");
-    themeIcon.src = "./assets/icons/sun-solid-full-dark.svg";
+    themeIcon.src = "./assets/icons/sun.png";
     menuIcon.src = "./assets/icons/bars-solid-full-dark.svg";
   } else {
     body.classList.remove("dark-mode");

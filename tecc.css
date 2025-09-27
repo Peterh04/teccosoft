@@ -164,6 +164,8 @@ body {
 
   background-color: transparent;
   border: none;
+
+  cursor: pointer;
 }
 
 .header-controls > button > img {
@@ -231,7 +233,7 @@ body {
 
   background: linear-gradient(135deg, #3a3a3e, #28282b);
 
-  min-height: 380px;
+  min-height: 500px;
   width: 100%;
 }
 
@@ -349,12 +351,23 @@ body {
   width: 100%;
 
   transition: background 0.3s;
+
+  position: relative;
 }
 
 .individual-service > .fa {
   width: 40px;
 
   margin-bottom: 1.3rem;
+
+  position: absolute;
+
+  top: 15px;
+  left: 30px;
+}
+
+.individual-service > h3 {
+  margin-top: 50px;
 }
 
 .individual-service > p {
@@ -560,6 +573,14 @@ body.dark-mode .advantages {
 body.dark-mode .individual-service {
   background-color: #1e1e1e;
   color: #e0e0e0;
+}
+
+body.dark-mode .individual-service > p {
+  color: #f8f8ff;
+}
+
+body.dark-mode .advantages-content > p {
+  color: #f8f8ff;
 }
 
 body.dark-mode .fa {
