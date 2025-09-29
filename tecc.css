@@ -31,6 +31,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "MaximaNouva";
+  src: url("/assets/fonts/MaximaNouva-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* 3. Enable keyword animations */
 @media (prefers-reduced-motion: no-preference) {
   html {
@@ -119,7 +126,7 @@ body {
 
   color: white;
 
-  font-family: "Osande", sans-serif;
+  font-family: "MaximaNouva", sans-serif;
 }
 
 .btn {
@@ -145,12 +152,21 @@ body {
   position: relative;
 }
 
-.main-header > h1 {
+.main-header > .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container > .logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-container > h1 {
   margin-left: 20px;
 
   color: #0a1835;
 }
-
 .main-header > .header-controls {
   display: flex;
 
