@@ -16,12 +16,15 @@
 
 .fa {
   /* fill: #28282b; */
-  fill: #0a1835;
+  fill: #1e88e5;
 }
 
 /* 2. Remove default margin */
 * {
   margin: 0;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -304,7 +307,7 @@ body {
 }
 
 .hero-content > .btn-link:hover {
-  background: linear-gradient(to right, #e5944f, #e5a46a);
+  background: linear-gradient(to right, #163575, #294274);
 }
 
 .services {
