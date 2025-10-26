@@ -344,7 +344,7 @@ body {
 
   line-height: 25px;
 
-  color: var(--ternary-color-400);
+  color: white;
 }
 
 .service-show-case {
@@ -367,7 +367,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-color: #f1f1f1;
+  background-color: #1e1e1e;
 
   padding: 20px;
 
@@ -442,7 +442,7 @@ body {
 
   line-height: 25px;
 
-  color: var(--ternary-color-400);
+  color: #f8f8ff;
 
   margin-top: 10px;
   margin-bottom: 10px;
@@ -485,6 +485,8 @@ body {
   display: flex;
 
   margin-bottom: 0.2rem;
+
+  color: #f8f8ff;
 }
 
 .individual-adv-content > p {
@@ -498,7 +500,7 @@ body {
 
   line-height: 20px;
 
-  color: var(--ternary-color-400);
+  color: #c4c4c4;
 
   margin-top: 10px;
   margin-bottom: 10px;
