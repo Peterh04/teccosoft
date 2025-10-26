@@ -576,80 +576,80 @@ body {
 }
 
 /* Dark Mode Overrides */
-body.dark-mode {
+body {
   background-color: #151b21;
   color: #e0e0e0;
 }
-body.dark-mode .logo-container > h1 {
+body .logo-container > h1 {
   color: #1e88e5;
 }
 
-body.dark-mode .hero {
+body.hero {
   background: #163575;
 }
 
-body.dark-mode .services,
-body.dark-mode .advantages {
+body .services,
+body.advantages {
   color: #e0e0e0;
 }
 
-body.dark-mode .service-content > p {
+body .service-content > p {
   color: #c4c4c4;
 }
 
-body.dark-mode .link > .fa {
+body .link > .fa {
   fill: #f8f8ff;
 }
 
-body.dark-mode .individual-service {
+body .individual-service {
   background-color: #1e1e1e;
   color: #e0e0e0;
 }
 
-body.dark-mode .individual-service > p {
+body .individual-service > p {
   color: #f8f8ff;
 }
 
-body.dark-mode .advantages-content > p {
+body.advantages-content > p {
   color: #f8f8ff;
 }
 
-body.dark-mode .individual-adv-content > p {
+body .individual-adv-content > p {
   color: #c4c4c4;
 }
 
-body.dark-mode .fa {
+body .fa {
   /* fill: white; */
   fill: #163575;
 }
 
-body.dark-mode .btn {
+body .btn {
   background-color: #1e88e5;
   color: #ffffff;
 }
 
-body.dark-mode .btn-link {
+body .btn-link {
   background: linear-gradient(to right, #1565c0, #1976d2);
 }
 
-body.dark-mode .footer {
+body .footer {
   background: #163575;
   color: #e0e0e0;
 }
 
-body.dark-mode a {
+body a {
   color: white;
 }
 
-body.dark-mode .menu > ul {
+body .menu > ul {
   background-color: #1e1e1e;
 }
 
-body.dark-mode .menu > ul > li > a {
+body .menu > ul > li > a {
   color: #e0e0e0;
 }
 
-body.dark-mode .menu > ul > li::after {
+body .menu > ul > li::after {
   color: #b0b0b0;
 }
 
