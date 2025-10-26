@@ -174,7 +174,7 @@ body {
 .main-header > .header-controls {
   display: flex;
 
-  justify-content: space-between;
+  justify-content: flex-end;
 
   width: 120px;
 }
@@ -429,6 +429,8 @@ body {
   justify-content: center;
 
   margin-bottom: 1rem;
+
+  color: white;
 }
 
 .advantages-content > p {
